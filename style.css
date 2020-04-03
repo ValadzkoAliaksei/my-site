@@ -47,7 +47,7 @@
   text-align: right;
 }
 
-.dark-theme .page-header a {
+.dark-theme .page-header > div > a {
   margin-left: 56px;
   color: #fea18d;
   text-decoration: none;
@@ -78,6 +78,78 @@
   margin: 0 0 24px;
   font-size: 80px;
   line-height: 96px;
+}
+
+.main-menu {
+  margin: 50px 0 0 200px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu > li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  width: 200px;
+}
+
+.main-menu a {
+  display: block;
+  margin-left: -1px;
+  padding: 8px 10px;
+  color: #0088cc;
+  border-left: 1px solid #e5e5e5;
+  text-align: center;
+  text-decoration:  none;
+}
+
+.main-menu a:hover {
+  background-color: #f5f5f5;
+}
+
+.main-menu ul.sub-menu.main {
+  position: absolute;
+  left: 1px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:none;
+}
+
+.main-menu .sub-menu a {
+  margin-bottom: -1px;
+  border: 1px solid #e5e5e5;
+}
+
+.main-menu > li:hover .sub-menu {
+  display: block;
+}
+
+.main-menu  ul.sub-menu.one{
+  position: absolute;
+  left: 202px;
+  width: 200px;
+  top: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:none;
+}
+
+.main-menu  ul.sub-menu.two{
+  position: absolute;
+  left: 202px;
+  width: 200px;
+  top: 51px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:none;
+}
+
+.sub-menu > li:hover .sub-menu {
+  display: block;
 }
 
 .hero-image p {
@@ -253,7 +325,7 @@
   background-color: #288be6;
 }
 
-.light-theme .page-header a {
+.light-theme .page-header > div > a {
   margin-left: 56px;
   color: #288be6;
   text-decoration: none;
