@@ -37,7 +37,7 @@
 }
 
 .page-header {
-  margin: 0 0 180px 0 ;
+  margin: 0 0 80px 0 ;
   padding: 32px 0 32px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .hero-image {
-  margin-bottom: 480px;
+  margin-bottom: 300px;
 }
 
 .hero-image .container {
@@ -93,11 +93,11 @@
   width: 200px;
 }
 
-.main-menu a {
+.dark-theme .main-menu a {
   display: block;
   margin-left: -1px;
   padding: 8px 10px;
-  color: #0088cc;
+  color: #fea18d;
   border-left: 1px solid #e5e5e5;
   text-align: center;
   text-decoration:  none;
@@ -120,6 +120,7 @@
 .main-menu .sub-menu a {
   margin-bottom: -1px;
   border: 1px solid #e5e5e5;
+  border-radius: 6px;
 }
 
 .main-menu > li:hover .sub-menu {
@@ -178,9 +179,9 @@
   text-align: justify;
 }
 
- .training {
+.dark-theme .training {
   text-decoration: none;
-  color: #288be6;
+  color: #fea18d;
 }
 
 .intro h3,
@@ -358,6 +359,21 @@
   line-height: 80px;
   font-weight: 400;
   text-align: center;
+}
+
+.light-theme .main-menu a {
+  display: block;
+  margin-left: -1px;
+  padding: 8px 10px;
+  color: #0088cc;
+  border-left: 1px solid #e5e5e5;
+  text-align: center;
+  text-decoration:  none;
+}
+
+.light-theme .training {
+  text-decoration: none;
+  color: #288be6;
 }
 
 .light-theme .level {
