@@ -149,7 +149,7 @@
   display:none;
 }
 
-.sub-menu > li:hover .sub-menu {
+.sub-menu > li:hover >.sub-menu {
   display: block;
 }
 

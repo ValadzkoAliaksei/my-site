@@ -51,32 +51,24 @@
       </ul>
     </header>
     <div class="contentWrap">
-        <div class="content">
-            <div class="center">
-                <h1>
-                    Игра в загадки
-                </h1>
-                <div class="box" id="info">
-                    <p >
-                        Что можно увидеть с закрытыми глазами?
-                    </p>
-                    <input type="text" id="userAnswer1">
-                    <p id="info1">
-                        Какой болезнью никто не болеет на суше?
-                    </p>
-                    <input type="text" id="userAnswer2">
-                    <p id="info2">
-                        Какой конь не ест овса?
-                    </p>
-                    <input type="text" id="userAnswer3">
-                    <br>
-                    <a href="#" onClick="checkAnswers();" id="button" class="button">
-                        Ответить
-                    </a>
-                </div>
-            </div>
+      <div class="content">
+        <div class="center">
+          <h1>
+            Игра угадайка мультиплеер
+          </h1>
+          <div class="box">
+            <p id="info">
+              Угадайте число от 0 до 100.<br> Ходит игрок под номером 1.
+            </p>
+            <input type="text" id="userAnswer">
+            <br>
+            <a href="#" onClick="guess();" id="button" class="button">
+              Начать
+            </a>				
+          </div>
         </div>
-    </div>   
+      </div>
+    </div>    
     <p>
         Здесь могла бы быть Ваша реклама!
       </p>
@@ -92,6 +84,6 @@
       </div>
      </footer>
      <script src="theme.js"></script>
-     <script type="text/javascript" src="riddle.js"></script>
+     <script type="text/javascript" src="guessing-2.js"></script>
    </body>
  </html>
