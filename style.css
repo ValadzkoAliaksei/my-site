@@ -1,5 +1,5 @@
 /* Темная тема */
-.dark-theme{
+.dark-theme {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -37,7 +37,7 @@
 }
 
 .page-header {
-  margin: 0 0 150px 0 ;
+  margin: 0 0 150px 0;
   padding: 32px 0 32px;
 }
 
@@ -47,7 +47,7 @@
   text-align: right;
 }
 
-.dark-theme .page-header > div > a {
+.dark-theme .page-header>div>a {
   margin-left: 56px;
   color: #fea18d;
   text-decoration: none;
@@ -86,7 +86,7 @@
   list-style: none;
 }
 
-.main-menu > li {
+.main-menu>li {
   position: relative;
   display: inline-block;
   margin-right: -4px;
@@ -100,7 +100,7 @@
   color: #fea18d;
   border-left: 1px solid #e5e5e5;
   text-align: center;
-  text-decoration:  none;
+  text-decoration: none;
 }
 
 .main-menu a:hover {
@@ -114,7 +114,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display:none;
+  display: none;
 }
 
 .main-menu .sub-menu a {
@@ -123,11 +123,11 @@
   border-radius: 6px;
 }
 
-.main-menu > li:hover .sub-menu {
+.main-menu>li:hover .sub-menu {
   display: block;
 }
 
-.main-menu  ul.sub-menu.one{
+.main-menu ul.sub-menu.one {
   position: absolute;
   left: 202px;
   width: 200px;
@@ -135,10 +135,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display:none;
+  display: none;
 }
 
-.main-menu  ul.sub-menu.two{
+.main-menu ul.sub-menu.two {
   position: absolute;
   left: 202px;
   width: 200px;
@@ -146,10 +146,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display:none;
+  display: none;
 }
 
-.sub-menu > li:hover >.sub-menu {
+.sub-menu>li:hover>.sub-menu {
   display: block;
 }
 
@@ -295,7 +295,7 @@
 }
 
 /* Светлая тема */
-.light-theme  {
+.light-theme {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -326,7 +326,7 @@
   background-color: #288be6;
 }
 
-.light-theme .page-header > div > a {
+.light-theme .page-header>div>a {
   margin-left: 56px;
   color: #288be6;
   text-decoration: none;
@@ -368,7 +368,7 @@
   color: #0088cc;
   border-left: 1px solid #e5e5e5;
   text-align: center;
-  text-decoration:  none;
+  text-decoration: none;
 }
 
 .light-theme .training {
@@ -462,8 +462,8 @@
   background-color: #f5f5f5;
   width: 457px;
   height: 34px;
-  padding-left:10px;
-  font-size:20px;
+  padding-left: 10px;
+  font-size: 20px;
   font-weight: 100;
   margin-bottom: 12px;
 }

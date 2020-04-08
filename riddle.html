@@ -1,97 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>Портфолио Junior верстальщика</title>
-  <meta name="keywords" content="Володько, портфолио верстальщика, https://valadzkoaliaksei.github.io/my-site/, Cleverland">
-  <meta name="description" content="Портфолио Junior верстальщика Володько А.Ю., прошедшего обучение на базовом уровне в HTML Academy">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+  <meta name="keywords"
+    content="Володько, портфолио верстальщика, https://valadzkoaliaksei.github.io/my-site/, Cleverland">
+  <meta name="description"
+    content="Портфолио Junior верстальщика Володько А.Ю., прошедшего обучение на базовом уровне в HTML Academy">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+    rel="stylesheet">
 </head>
+
 <body class="page light-theme">
-    <header class="page-header">
-      <div class="container">
-        Беларусь г. Орша. ул. Воз-Ан-влен 9-59
-        <a class="header-email" href="valadzkoaliaksei@tut.by">
-          valadzkoaliaksei@tut.by
-        </a>
-        <a class="header-phone" href="tel:+375295123260">
-          +375 (29) 512-32-60
-        </a>
-        <button class="theme-button" type="button" title="Изменить тему">
-          Изменить тему
-        </button>
-      </div>
-      <ul class="main-menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="#">Игры </a>
-          <ul class="sub-menu main">
-            <li><a href="#">Игры на JS</a>
-              <ul class="sub-menu one">
-                <li><a href="#">Угадайка</a>
-                  <ul class="sub-menu one">
-                    <li><a href="guessing_game.html">Для 1 игрока</a></li>
-                    <li><a href="guessing_game-2.html">Для 2 игроков</a></li>
-                  </ul>
-                </li>
-                <li><a href="riddle.html">Загадки</a></li>
-                <li><a href="passw-generator.html">Генератор паролей</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Игры на PHP</a>
-              <ul class="sub-menu two">
-                <li><a href="#">Угадайка</a></li>
-                <li><a href="#">Загадки</a></li>
-                <li><a href="#">Позиционирование</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#">Отзывы </a></li>
-      </ul>
-    </header>
-    <div class="contentWrap">
-        <div class="content">
-            <div class="center">
-                <h1>
-                    Игра в загадки
-                </h1>
-                <div class="box" id="info">
-                    <p >
-                        Что можно увидеть с закрытыми глазами?
-                    </p>
-                    <input type="text" id="userAnswer1">
-                    <p id="info1">
-                        Какой болезнью никто не болеет на суше?
-                    </p>
-                    <input type="text" id="userAnswer2">
-                    <p id="info2">
-                        Какой конь не ест овса?
-                    </p>
-                    <input type="text" id="userAnswer3">
-                    <br>
-                    <a href="#" onClick="checkAnswers();" id="button" class="button">
-                        Ответить
-                    </a>
-                </div>
-            </div>
+  <header class="page-header">
+    <div class="container">
+      Беларусь г. Орша. ул. Воз-Ан-влен 9-59
+      <a class="header-email" href="valadzkoaliaksei@tut.by">
+        valadzkoaliaksei@tut.by
+      </a>
+      <a class="header-phone" href="tel:+375295123260">
+        +375 (29) 512-32-60
+      </a>
+      <button class="theme-button" type="button" title="Изменить тему">
+        Изменить тему
+      </button>
+    </div>
+    <ul class="main-menu">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="#">Игры </a>
+        <ul class="sub-menu main">
+          <li><a href="#">Игры на JS</a>
+            <ul class="sub-menu one">
+              <li><a href="#">Угадайка</a>
+                <ul class="sub-menu one">
+                  <li><a href="guessing_game.html">Для 1 игрока</a></li>
+                  <li><a href="guessing_game-2.html">Для 2 игроков</a></li>
+                </ul>
+              </li>
+              <li><a href="riddle.html">Загадки</a></li>
+              <li><a href="passw-generator.html">Генератор паролей</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Игры на PHP</a>
+            <ul class="sub-menu two">
+              <li><a href="#">Угадайка</a></li>
+              <li><a href="#">Загадки</a></li>
+              <li><a href="#">Позиционирование</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Отзывы </a></li>
+    </ul>
+  </header>
+  <div class="contentWrap">
+    <div class="content">
+      <div class="center">
+        <h1>
+          Игра в загадки
+        </h1>
+        <div class="box" id="info">
+          <p>
+            Что можно увидеть с закрытыми глазами?
+          </p>
+          <input type="text" id="userAnswer1">
+          <p id="info1">
+            Какой болезнью никто не болеет на суше?
+          </p>
+          <input type="text" id="userAnswer2">
+          <p id="info2">
+            Какой конь не ест овса?
+          </p>
+          <input type="text" id="userAnswer3">
+          <br>
+          <a href="#" onClick="checkAnswers();" id="button" class="button">
+            Ответить
+          </a>
         </div>
-    </div>   
-    <p>
-        Здесь могла бы быть Ваша реклама!
-      </p>
-     </section>
-     <footer class="page-footer">
-       <div class="container">
-         <a class="footer-email" href="valadzkoaliaksei@tut.by">
-           valadzkoaliaksei@tut.by
-         </a>
-         <a class="footer-phone" href="tel:+375295123260">
-           +375 (29) 512-32-60
-         </a>
       </div>
-     </footer>
-     <script src="theme.js"></script>
-     <script type="text/javascript" src="riddle.js"></script>
-   </body>
- </html>
+    </div>
+  </div>
+  <p>
+    Здесь могла бы быть Ваша реклама!
+  </p>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <a class="footer-email" href="valadzkoaliaksei@tut.by">
+        valadzkoaliaksei@tut.by
+      </a>
+      <a class="footer-phone" href="tel:+375295123260">
+        +375 (29) 512-32-60
+      </a>
+    </div>
+  </footer>
+  <script src="theme.js"></script>
+  <script type="text/javascript" src="riddle.js"></script>
+</body>
+
+</html>
